@@ -1,0 +1,72 @@
+.carousel-container{
+    width:520px;
+    height:280px;
+    /*margin:200px auto;*/
+    position: relative;
+}
+.carousel-imgs{
+    width:520px;
+    height:280px;
+}
+.carousel-imgs img{
+    display: none;
+    width:520px;
+    height:280px;
+}
+.carousel-imgs .selected{
+    display: block;
+}
+.carousel-tab{
+    position: absolute;
+    right:10px;
+    bottom:10px;
+}
+.carousel-tab li{
+    float: left;
+    width:20px;
+    height:20px;
+    background: #000;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.carousel-tab li.circle{
+    border-radius: 50%;
+}
+.carousel-tab li.square{
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
+.carousel-tab .selected{
+    background: orange;
+}
+.carousel-arrows.bottom{
+    position: absolute;
+    left:10px;
+    bottom:10px;
+}
+.carousel-arrows .carousel-arrows-prev,.carousel-arrows .carousel-arrows-next{
+    width:20px;
+    height:20px;
+    display: inline-block;
+    background: #000;
+    color:#fff;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+.carousel-arrows .carousel-arrows-prev.bottom,.carousel-arrows .carousel-arrows-next.bottom{
+    margin-right: 2px;
+}
+.carousel-arrows.center{
+    width:100%;
+    position: absolute;
+    top:50%;
+    margin-top: -10px;
+}
+.carousel-arrows .carousel-arrows-prev.center{
+    float: left;
+}
+.carousel-arrows .carousel-arrows-next.center{
+    float: right;
+}
